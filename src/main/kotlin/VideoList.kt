@@ -10,7 +10,6 @@ external interface VideoListProps : Props {
 }
 
 val VideoList = FC<VideoListProps> { props ->
-    var selectedVideo: Video? by useState(null)
     for (video in props.videos) {
         p {
             key = video.id.toString()
