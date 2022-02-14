@@ -11,6 +11,7 @@ import react.dom.html.ReactHTML.p
 import react.dom.html.ReactHTML.img
 import kotlinx.serialization.Serializable
 
+@Serializable
 data class Video(
     val id: Int,
     val title: String,
